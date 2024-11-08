@@ -1,0 +1,36 @@
+name: Importar Test Case
+
+on:
+  workflow_dispatch:
+    inputs:
+      featurepath:
+        description: Ruta al archivo feature
+        required: true
+      project:
+        description: Selecciona el proyecto
+        required: true
+        type: choice
+        options:
+        - '10349:Laboratorio de Pruebas'
+      validate:
+        description: ¿Deseas validar existencias?
+        type: boolean
+        default: false
+jobs:
+  import_testcase:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: 🚀 Importar Test Case
+      uses: ./
+      with:
+        execute: import-testcase
+        settings: "./tests/loader_settings/settings.json"
+        username: ${{ HERE_YOUR_SECRET_KEY }}
+        secretkey: ${{ HERE_YOUR_SECRET_KEY }}
+        filepath: ${{ inputs.featurepath }}
+        project: ${{ inputs.project }}
+        exists: ${{ inputs.validate }}

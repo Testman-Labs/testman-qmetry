@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "target": "es2022",
+    "moduleResolution": "node16",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "outDir": "./dist",
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "resolveJsonModule": true,
+    "removeComments": false,
+    "strictFunctionTypes": false,
+    "experimentalDecorators": true,
+    "lib": ["es2023", "dom", "es2021"],
+    "types": ["node"]
+  },
+
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "dist",
+    "/*.js"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "constanst": {
+        "jirabase_url": "https://example.atlassian.net"
+    },
+    "fields": {
+        "testcase": [
+            {
+                "type": "public",
+                "name": "automatizable",
+                "value": "No->No Aplica",
+                "xlsHeader": "Automatizable",
+                "qmetryHeader": null
+            },
+            {
+                "type": "public",
+                "name": "type",
+                "value": "Funcional",
+                "xlsHeader": "Tipo de Prueba",
+                "qmetryHeader": null
+            }
+        ]
+    }
+}
+

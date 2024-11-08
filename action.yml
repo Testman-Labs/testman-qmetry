@@ -1,0 +1,30 @@
+name: "Testman for Qmetry"
+description: "Tesman labs Tools for Qmetry"
+author: "Testman Labs"
+inputs:
+  execute:
+    description: "Execute Command"
+    required: true
+  settings:
+    description: "File settings"
+  username:
+    description: "Jira email"
+    required: true
+  secretkey:
+    description: "Jira token"
+    required: true
+  filepath:
+    description: "Feature path"
+    default: ""
+  project:
+    description: "ID:Project"
+    default: ""
+  exists:
+    description: "Verify if exists"
+    default: "false"
+runs:
+  using: "node20"
+  main: "dist/index.js"
+branding:
+  color: 'orange'
+  icon: 'check-square'

@@ -1,0 +1,121 @@
+[
+    {
+        "type": "private",
+        "name": "summary",
+        "value": "",
+        "xlsHeader": "Summary",
+        "qmetryHeader": "summary"
+    },
+    {
+        "type": "public",
+        "name": "story",
+        "value": "",
+        "xlsHeader": "Story Linkages",
+        "qmetryHeader": "storyLinkages"
+    },
+    {
+        "type": "public",
+        "name": "key",
+        "value": "",
+        "xlsHeader": "Issue Key",
+        "qmetryHeader": "issueKey"
+    },
+    {
+        "type": "public",
+        "name": "precondition",
+        "value": "",
+        "xlsHeader": "Precondition",
+        "qmetryHeader": "precondition"
+    },
+    {
+        "type": "public",
+        "name": "description",
+        "value": "",
+        "xlsHeader": "Description",
+        "qmetryHeader": "description"
+    },
+    {
+        "type": "public",
+        "name": "status",
+        "value": "Done",
+        "xlsHeader": "Status",
+        "qmetryHeader": "status"
+    },
+    {
+        "type": "public",
+        "name": "priority",
+        "value": "Medium",
+        "xlsHeader": "Priority",
+        "qmetryHeader": "priority"
+    },
+    {
+        "type": "public",
+        "name": "assignee",
+        "value": "",
+        "xlsHeader": "Assignee",
+        "qmetryHeader": "assignee"
+    },
+    {
+        "type": "public",
+        "name": "reporter",
+        "value": "",
+        "xlsHeader": "Reporter",
+        "qmetryHeader": "reporter"
+    },
+    {
+        "type": "public",
+        "name": "labels",
+        "value": "",
+        "xlsHeader": "Labels",
+        "qmetryHeader": "labels"
+    },
+    {
+        "type": "public",
+        "name": "components",
+        "value": "",
+        "xlsHeader": "Components",
+        "qmetryHeader": "components"
+    },
+    {
+        "type": "public",
+        "name": "sprint",
+        "value": "",
+        "xlsHeader": "Sprint",
+        "qmetryHeader": "sprint"
+    },
+    {
+        "type": "public",
+        "name": "fix",
+        "value": "",
+        "xlsHeader": "Fix Versions",
+        "qmetryHeader": "fixVersions"
+    },
+    {
+        "type": "private",
+        "name": "steps",
+        "value": "",
+        "xlsHeader": "Step Summary",
+        "qmetryHeader": "stepDetails"
+    },
+    {
+        "type": "private",
+        "name": "data",
+        "value": "",
+        "xlsHeader": "Test Data",
+        "qmetryHeader": "testData"
+    },
+    {
+        "type": "private",
+        "name": "expect",
+        "value": "",
+        "xlsHeader": "Expected Result",
+        "qmetryHeader": "expectedOutput"
+    },
+    {
+        "type": "public",
+        "name": "folder",
+        "value": "",
+        "xlsHeader": "Folders",
+        "qmetryHeader": "folders"
+    }
+]

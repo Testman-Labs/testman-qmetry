@@ -1,0 +1,41 @@
+{
+	"name": "@testmanlabs/testman-qmetry",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [
+		"testmanlabs",
+		"testman-qmetry",
+		"qmetry"
+	],
+	"author": {
+		"name": "Testman Labs"
+	},
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js",
+			"require": "./dist/index.js"
+		}
+	},
+	"scripts": {
+		"build": "ncc build src/index.ts -o dist",
+		"start": "ts-node src/index.ts",
+		"dev": "tsc && node dist/index.js"
+	},
+	"devDependencies": {
+		"@types/node": "^20.0.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.3"
+	},
+	"dependencies": {
+		"@actions/core": "^1.11.1",
+		"@testmanlabs/testman-feature": "^1.0.8",
+		"node-xlsx": "^0.24.0"
+	}
+}
