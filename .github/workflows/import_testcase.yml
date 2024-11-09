@@ -29,8 +29,8 @@ jobs:
       with:
         execute: import-testcase
         settings: "./tests/loader_settings/settings.json"
-        username: ${{ HERE_YOUR_SECRET_KEY }}
-        secretkey: ${{ HERE_YOUR_SECRET_KEY }}
+        username: "HERE_YOUR_SECRET_KEY"
+        secretkey: "HERE_YOUR_SECRET_KEY"
         filepath: ${{ inputs.featurepath }}
         project: ${{ inputs.project }}
         exists: ${{ inputs.validate }}
